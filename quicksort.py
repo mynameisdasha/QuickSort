@@ -8,6 +8,7 @@ def quickSort(a):
         else:
             return a[1],a[0]
     b=len(a)//2
+    #print(b)
     j=0 
     k=len(a)-1
     while a[j]<a[b]:
